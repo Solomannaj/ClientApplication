@@ -1,0 +1,143 @@
+﻿
+@{
+    ViewBag.Title = "Client";
+}
+
+<h2>Client</h2>
+
+    @foreach (var item in ViewBag.CurveHeaders)
+    {
+    <div class="checkbox">
+        <label>
+            <input type="checkbox"
+                   name="SelectedHeaders"
+                   value="@item.Value" /> @item.Text
+            </label>
+        </div>
+    }
+
+<h3>Curves Data</h3>
+
+<div id="CurveDetails">
+
+    <table id="tblCurveDetails" class="table">
+
+
+    </table>
+
+</div>
+
+
+<button id="btStart" type="button">Start</button>
+<button id="btStop" type="button">Stop</button>
+
+@section Scripts  {
+
+
+    <script>
+        $(document).ready(function () {
+
+            $("#btStart").click(function () {
+
+                clearInterval(timer);
+
+                var curves = [];
+
+                $('input[name="SelectedHeaders"]:checked').each(function () {
+                    // console.log(this.value);
+                    curves.push(this.value);
+                });
+
+                InvokeDataTransfer(curves);
+                SetTableView(curves);
+                setInterval(timer, 10000);
+            });
+
+            //------------------------------------------------------------------------------
+
+            $("#btStop").click(function () {
+
+                $.ajax({
+                    url: '/Client/StopDataTransfer',
+                    type: "POST",
+                    data: {},
+                    dataType: "text",
+                    async: false,
+                    success: function (data) {
+                        alert("Transfer stoped");
+                    }
+                });
+            });
+        });
+
+    </script>
+
+     <script>
+
+         function SetTableView(curves)
+         {
+             $("#tblCurveDetails").empty();
+             $('#tblCurveDetails').append('<tr id="tblHeader"></tr>');
+             $('#tblHeader').append('<th>index</th>');
+             $.each(curves, function () {
+
+                 $('#tblHeader').append('<th>' + this + '</th>');
+             })
+        
+
+         }
+
+         function AddDataRowToTable(curves) {
+
+             $('#tblCurveDetails').append('<tr id="' + curves[0] +'"></tr>');
+             $.each(curves, function () {
+
+                 $('#' + curves[0]).append('<td>' + this + '</td>');
+             })
+
+
+         }
+         
+
+         function InvokeDataTransfer(curves) {
+
+          
+
+             $.ajax({
+                 url: '/Client/InvokeDataTransfer',
+                 type: "POST",
+                 data: {curves: curves},
+                 dataType: "text",
+                 async: false,
+                 success: function (data) {
+                     //debugger;
+                     // var student = JSON.parse(data);
+                     alert("Transfer started");
+                 }
+             });
+
+         };
+         
+      var timer = function  SubscribeData() {
+            
+            $.ajax({
+                url: '/Client/SubscribeData',
+                type: "POST",
+                data: {},
+                dataType: "text",
+                async: true,
+                success: function (data) {
+                    //debugger;
+                    var curvesData = JSON.parse(data);
+                    AddDataRowToTable(curvesData);
+                    //alert("Hai");
+                }
+            });
+             
+         };
+         
+     </script>
+
+ }
+
+
