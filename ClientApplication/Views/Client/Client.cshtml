@@ -2,44 +2,55 @@
 @{
     ViewBag.Title = "Client";
 }
+<div>
+    <div class="row" style="border: 1px solid #808080; border-image: none; margin-top:1%; height:500px" >
+        <div class="col-lg-6" style="padding: 1% 1% 1% 1%; width: 20%; float: left;" >
+            <h5 style="text-decoration:underline">Select Curves</h5>
 
-<h2>Client</h2>
-
-    @foreach (var item in ViewBag.CurveHeaders)
-    {
-    <div class="checkbox">
-        <label>
-            <input type="checkbox"
-                   name="SelectedHeaders"
-                   value="@item.Value" /> @item.Text
-            </label>
+            @foreach (var item in ViewBag.CurveHeaders)
+            {
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox"
+                               name="SelectedHeaders"
+                               value="@item.Value" /> @item.Text
+                        </label>
+                    </div>
+            }
+            <button id="btStart" type="button" class="btn-default">Start</button>
+            <button id="btStop" type="button" class="btn-default">Stop</button>
+          
         </div>
-    }
+        <div class="col-lg-6" style="padding:1% 1% 1% 1%; height:450px">
+            <h5 id="hCurvesData" style="text-decoration:underline" >Curves Data</h5>
 
-<h3>Curves Data</h3>
+            <div id="CurveDetails" style="height:400px;overflow-y:auto; position:relative; width:800px">
 
-<div id="CurveDetails">
+                <table id="tblCurveDetails" class="table table-hover"></table>
+               
+            </div>
 
-    <table id="tblCurveDetails" class="table">
+        </div>
+        
+    </div>
 
-
-    </table>
-
+    <div style="float:right;margin-top:1%">
+        <button id="btExport" type="button" class="btn-default">Export</button>
+    </div>
+  
 </div>
-
-
-<button id="btStart" type="button">Start</button>
-<button id="btStop" type="button">Stop</button>
-
 @section Scripts  {
 
 
     <script>
         $(document).ready(function () {
 
-            $("#btStart").click(function () {
+           
+            $("#hCurvesData").hide();
+            $("#btStop").attr("disabled", true);
+            $("#btExport").attr("disabled", true);
 
-                clearInterval(timer);
+            $("#btStart").click(function () {
 
                 var curves = [];
 
@@ -48,6 +59,19 @@
                     curves.push(this.value);
                 });
 
+                if (curves.length == 0) {
+                    alert("Please select any curve");
+                    return;
+                }
+
+                $("#hCurvesData").show();
+
+                $("#btStart").attr("disabled", true);
+                $("#btExport").attr("disabled", true);
+                $("#btStop").attr("disabled", false);
+
+                clearInterval(timer);
+                
                 InvokeDataTransfer(curves);
                 SetTableView(curves);
                 setInterval(timer, 10000);
@@ -57,6 +81,12 @@
 
             $("#btStop").click(function () {
 
+                $("#btExport").attr("disabled", false);
+
+                $("#btStop").attr("disabled", true);
+
+                $("#btStart").attr("disabled", false);
+
                 $.ajax({
                     url: '/Client/StopDataTransfer',
                     type: "POST",
@@ -64,10 +94,25 @@
                     dataType: "text",
                     async: false,
                     success: function (data) {
-                        alert("Transfer stoped");
+                        //alert("Transfer stoped");
                     }
                 });
             });
+
+            $("#btExport").click(function () {
+
+                $.ajax({
+                    url: '/Client/ExportData',
+                    type: "POST",
+                    data: {},
+                    dataType: "text",
+                    async: false,
+                    success: function (data) {
+                       // alert("Transfer stoped");
+                    }
+                });
+            });
+
         });
 
     </script>
@@ -76,6 +121,7 @@
 
          function SetTableView(curves)
          {
+             $("#tblCurveDetails").css({"width" : "50%;"})
              $("#tblCurveDetails").empty();
              $('#tblCurveDetails').append('<tr id="tblHeader"></tr>');
              $('#tblHeader').append('<th>index</th>');
@@ -89,13 +135,15 @@
 
          function AddDataRowToTable(curves) {
 
-             $('#tblCurveDetails').append('<tr id="' + curves[0] +'"></tr>');
-             $.each(curves, function () {
+             if (curves[0] != "")
+             {
+                 $('#tblCurveDetails').append('<tr id="' + curves[0] + '"></tr>');
+                 $.each(curves, function () {
 
-                 $('#' + curves[0]).append('<td>' + this + '</td>');
-             })
 
-
+                     $('#' + curves[0]).append('<td>' + this + '</td>');
+                 })
+             }
          }
          
 
@@ -112,7 +160,7 @@
                  success: function (data) {
                      //debugger;
                      // var student = JSON.parse(data);
-                     alert("Transfer started");
+                    // alert("Transfer started");
                  }
              });
 

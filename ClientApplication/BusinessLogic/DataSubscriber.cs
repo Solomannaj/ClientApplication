@@ -11,11 +11,17 @@ using System.Threading.Tasks;
 
 namespace ClientApplication.BusinessLogic
 {
-    class DataSubscriber : IDisposable
+    public interface IDataSubscriber
+    {
+        void SubscribeData();
+        void Dispose();
+    }
+    public class DataSubscriber : IDisposable, IDataSubscriber
     {
         private  IConnection connection; 
         private  IModel channel;
-        ConnectionFactory factory;
+        private  ConnectionFactory factory;
+        private EventingBasicConsumer consumer;
 
         public DataSubscriber()
         {
@@ -27,6 +33,10 @@ namespace ClientApplication.BusinessLogic
                 VirtualHost = ConfigurationManager.AppSettings["RabbitMQVirtualHost"] ,
                 Port =Convert.ToInt32(ConfigurationManager.AppSettings["RabbitMQPort"])
             };
+
+            connection = factory.CreateConnection();
+            channel = connection.CreateModel();
+            consumer = new EventingBasicConsumer(channel);
         }
 
         public void Dispose()
@@ -48,20 +58,16 @@ namespace ClientApplication.BusinessLogic
             
         public  void SubscribeData()
         {
-            connection = factory.CreateConnection();
-            channel = connection.CreateModel();
-            
             channel.QueueDeclare(queue: "hello", durable: false, exclusive: false, autoDelete: false, arguments: null);
-
-            var consumer = new EventingBasicConsumer(channel);
             consumer.Received += (model, ea) =>
             {
                 var body = ea.Body;
                 var message = Encoding.UTF8.GetString(body);
-                CurvesData.LSTCurvesData.Add(message);
+               
+                if(!CurvesData.LSTCurvesData.Contains(message))
+                    CurvesData.LSTCurvesData.Add(message);
             };
             channel.BasicConsume(queue: "hello", autoAck: true, consumer: consumer);
-           
         }
 
     }

@@ -5,7 +5,8 @@ using System.Web;
 
 namespace ClientApplication.BusinessLogic
 {
-    public static class CurvesData
+
+    public static class CurvesData 
     {
        static CurvesData()
        {

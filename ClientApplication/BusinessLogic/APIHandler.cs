@@ -6,7 +6,14 @@ using System.Net.Http.Headers;
 
 namespace ClientApplication.BusinessLogic
 {
-   public  class APIHandler
+    public interface IAPIHandler
+    {
+         Task<string> GetCurveHeadersAsync();
+         Task<bool> InvokeDataTransfferAsync(string curves);
+         Task<bool> StopDataTransfferAsync();
+    }
+
+   public  class APIHandler : IAPIHandler
     {
         HttpClient client;
         string url = "http://localhost:3118/api/Curves";

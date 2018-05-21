@@ -13,13 +13,13 @@ namespace ClientApplication.Controllers
    
     public class ClientController : Controller
     {
-        private APIHandler handler;
-        private DataSubscriber dataSubscriber;
+        private IAPIHandler handler;
+        private IDataSubscriber dataSubscriber;
 
-        public ClientController()
+        public ClientController(IAPIHandler objHandler, IDataSubscriber objSubscriber)
         {
-            handler = new APIHandler();
-            dataSubscriber = new DataSubscriber();
+            handler = objHandler;
+            dataSubscriber = objSubscriber;
         }
 
         // GET: Client
@@ -47,15 +47,25 @@ namespace ClientApplication.Controllers
         }
 
         [HttpPost]
+        public JsonResult ExportData()
+        {
+           
+            return Json(true, JsonRequestBehavior.AllowGet);
+        }
+
+        [HttpPost]
         public JsonResult InvokeDataTransfer(string [] curves)
         {
+            CurvesData.LSTCurvesData.Clear();
             string requestedCurves = string.Join( ",",curves);
 
             handler.GetCurveHeadersAsync().GetAwaiter();
             handler.InvokeDataTransfferAsync(requestedCurves).GetAwaiter();
-           
-            Action actionSubscribe = () => { dataSubscriber.SubscribeData(); };
-            Task.Run(actionSubscribe);
+
+            dataSubscriber.SubscribeData();
+
+            //Action actionSubscribe = () => { dataSubscriber.SubscribeData(); };
+            //Task.Run(actionSubscribe);
 
             return Json(true, JsonRequestBehavior.AllowGet);
         }
@@ -64,6 +74,7 @@ namespace ClientApplication.Controllers
         public JsonResult StopDataTransfer()
         {
             handler.StopDataTransfferAsync().GetAwaiter();
+            CurvesData.LSTCurvesData.Clear();
             return Json(true, JsonRequestBehavior.AllowGet);
         }
 
