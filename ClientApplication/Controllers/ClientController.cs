@@ -1,18 +1,20 @@
 ﻿using ClientApplication.BusinessLogic;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
-using System.Web;
+using System.Configuration;
+using System.Text;
 using System.Web.Mvc;
-
 
 namespace ClientApplication.Controllers
 {
-   
+
     public class ClientController : Controller
     {
+        protected override void OnException(ExceptionContext filterContext)
+        {
+            Logger.WrieException(string.Format("Action method failed - {0}", filterContext.Exception.Message));
+            base.OnException(filterContext);
+        }
+
         private IAPIHandler handler;
         private IDataSubscriber dataSubscriber;
 
@@ -22,7 +24,6 @@ namespace ClientApplication.Controllers
             dataSubscriber = objSubscriber;
         }
 
-        // GET: Client
         public ActionResult Client()
         {
             string headers= handler.GetCurveHeadersAsync().Result;
@@ -46,34 +47,33 @@ namespace ClientApplication.Controllers
            return Json(dataRow, JsonRequestBehavior.AllowGet);
         }
 
-        [HttpPost]
-        public JsonResult ExportData()
+        [HttpGet]
+        public ActionResult ExportData()
         {
-           
-            return Json(true, JsonRequestBehavior.AllowGet);
+            string document = handler.ExportXMLDataAsync().Result;
+            byte[] bytes = Encoding.Default.GetBytes(document);
+            return File(bytes, System.Net.Mime.MediaTypeNames.Application.Octet, ConfigurationManager.AppSettings["XMLFileName"]);
         }
 
         [HttpPost]
         public JsonResult InvokeDataTransfer(string [] curves)
         {
-            CurvesData.LSTCurvesData.Clear();
-            string requestedCurves = string.Join( ",",curves);
+          
+            CurvesData.ClearPrevData();
+            CurvesData.UpdateHeaders(curves);
 
-            handler.GetCurveHeadersAsync().GetAwaiter();
-            handler.InvokeDataTransfferAsync(requestedCurves).GetAwaiter();
-
+            string requestedCurves = string.Join(",", curves);
+            handler.InvokeDataTransfferAsync(requestedCurves).Wait();
             dataSubscriber.SubscribeData();
 
-            //Action actionSubscribe = () => { dataSubscriber.SubscribeData(); };
-            //Task.Run(actionSubscribe);
-
             return Json(true, JsonRequestBehavior.AllowGet);
+          
         }
 
         [HttpPost]
         public JsonResult StopDataTransfer()
         {
-            handler.StopDataTransfferAsync().GetAwaiter();
+            handler.StopDataTransfferAsync().Wait();
             CurvesData.LSTCurvesData.Clear();
             return Json(true, JsonRequestBehavior.AllowGet);
         }

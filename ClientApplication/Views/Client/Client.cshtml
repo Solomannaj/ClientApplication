@@ -34,8 +34,8 @@
         
     </div>
 
-    <div style="float:right;margin-top:1%">
-        <button id="btExport" type="button" class="btn-default">Export</button>
+    <div id="btExport" style="float:right;margin-top:1%">
+        @Html.ActionLink("Download as XML", "ExportData", new {})
     </div>
   
 </div>
@@ -44,11 +44,11 @@
 
     <script>
         $(document).ready(function () {
-
            
             $("#hCurvesData").hide();
             $("#btStop").attr("disabled", true);
-            $("#btExport").attr("disabled", true);
+
+            $("#btExport").hide();
 
             $("#btStart").click(function () {
 
@@ -63,29 +63,15 @@
                     alert("Please select any curve");
                     return;
                 }
-
-                $("#hCurvesData").show();
-
-                $("#btStart").attr("disabled", true);
-                $("#btExport").attr("disabled", true);
-                $("#btStop").attr("disabled", false);
-
-                clearInterval(timer);
                 
                 InvokeDataTransfer(curves);
-                SetTableView(curves);
-                setInterval(timer, 10000);
+               
             });
+            
 
             //------------------------------------------------------------------------------
 
             $("#btStop").click(function () {
-
-                $("#btExport").attr("disabled", false);
-
-                $("#btStop").attr("disabled", true);
-
-                $("#btStart").attr("disabled", false);
 
                 $.ajax({
                     url: '/Client/StopDataTransfer',
@@ -94,21 +80,22 @@
                     dataType: "text",
                     async: false,
                     success: function (data) {
-                        //alert("Transfer stoped");
+
+                        $("#btExport").show();
+                        $("#btStop").attr("disabled", true);
+                        $("#btStart").attr("disabled", false);
                     }
-                });
-            });
+                    ,
+                    error: function (xhr, ajaxOptions, thrownError) {
 
-            $("#btExport").click(function () {
+                        clearInterval(timer);
 
-                $.ajax({
-                    url: '/Client/ExportData',
-                    type: "POST",
-                    data: {},
-                    dataType: "text",
-                    async: false,
-                    success: function (data) {
-                       // alert("Transfer stoped");
+                        if (xhr.status == 500) {
+                            alert("Error : Data server seems to be down");
+                        }
+                        else {
+                            alert(thrownError);
+                        }
                     }
                 });
             });
@@ -118,6 +105,7 @@
     </script>
 
      <script>
+        
 
          function SetTableView(curves)
          {
@@ -145,11 +133,8 @@
                  })
              }
          }
-         
 
          function InvokeDataTransfer(curves) {
-
-          
 
              $.ajax({
                  url: '/Client/InvokeDataTransfer',
@@ -158,9 +143,28 @@
                  dataType: "text",
                  async: false,
                  success: function (data) {
-                     //debugger;
-                     // var student = JSON.parse(data);
-                    // alert("Transfer started");
+
+                     SetTableView(curves);
+                     clearInterval(timer);
+                     setInterval(timer, 10000);
+
+                     $("#hCurvesData").show();
+                     $("#btStart").attr("disabled", true);
+                     $("#btExport").hide();
+                     $("#btStop").attr("disabled", false);
+                 },
+                 error: function (xhr, ajaxOptions, thrownError) {
+
+                     clearInterval(timer);
+                     if (xhr.status == 500)
+                     {
+                         alert("Error : Data server seems to be down");
+                     }
+                     else
+                     {
+                         alert(thrownError);
+                     }
+                     
                  }
              });
 
@@ -175,10 +179,21 @@
                 dataType: "text",
                 async: true,
                 success: function (data) {
-                    //debugger;
+
                     var curvesData = JSON.parse(data);
                     AddDataRowToTable(curvesData);
-                    //alert("Hai");
+                }
+                ,
+                error: function (xhr, ajaxOptions, thrownError) {
+
+                    clearInterval(timer);
+
+                    if (xhr.status == 500) {
+                        alert("Error : Data server seems to be down");
+                    }
+                    else {
+                        alert(thrownError);
+                    }
                 }
             });
              

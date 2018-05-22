@@ -60,3 +60,10 @@ C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\System.Web.Mvc.xml
 C:\MyDrive\Petro\ClientApplication\ClientApplication\obj\Debug\ClientApplication.dll
 C:\MyDrive\Petro\ClientApplication\ClientApplication\obj\Debug\ClientApplication.pdb
 C:\MyDrive\Petro\ClientApplication\ClientApplication\obj\Debug\ClientApplication.csprojResolveAssemblyReference.cache
+C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\System.Net.Http.dll
+C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\System.Net.Http.Extensions.dll
+C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\System.Net.Http.Formatting.dll
+C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\System.Net.Http.Primitives.dll
+C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\System.Net.Http.WebRequest.dll
+C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\System.Net.Http.xml
+C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\System.Net.Http.WebRequest.xml

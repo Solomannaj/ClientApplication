@@ -1,8 +1,10 @@
-﻿using System;
-using System.Threading.Tasks;
+﻿using ClientApplication.Models;
 using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Headers;
+using System.Threading.Tasks;
 
 namespace ClientApplication.BusinessLogic
 {
@@ -11,6 +13,7 @@ namespace ClientApplication.BusinessLogic
          Task<string> GetCurveHeadersAsync();
          Task<bool> InvokeDataTransfferAsync(string curves);
          Task<bool> StopDataTransfferAsync();
+         Task<string> ExportXMLDataAsync();
     }
 
    public  class APIHandler : IAPIHandler
@@ -38,20 +41,27 @@ namespace ClientApplication.BusinessLogic
                 string curveHeaders = JsonConvert.DeserializeObject<string>(responseData);
                 return curveHeaders;
             }
-
-            return string.Empty;
+            else
+            {
+                Logger.WrieException("Failed to read curve headers");
+                throw new Exception("Failed to read curve headers");
+            }
         }
 
         public async Task<bool> InvokeDataTransfferAsync(string curves)
         {
+
             HttpResponseMessage responseMessage3 = await client.GetAsync(url + "/InvokeTransfer/?curves=" + curves).ConfigureAwait(false);
             if (responseMessage3.IsSuccessStatusCode)
             {
                 
                 return true;
             }
-
-            return false;
+            else
+            {
+                Logger.WrieException("Failed to invoke data transfer");
+                throw new Exception("Failed to invoke data transfer");
+            }
         }
 
         public async Task<bool> StopDataTransfferAsync()
@@ -61,8 +71,25 @@ namespace ClientApplication.BusinessLogic
             {
                 return true;
             }
-
-            return false;
+            else
+            {
+                Logger.WrieException("Failed to stop data transfer");
+                throw new Exception("Failed to stop data transfer");
+            }
+        }
+      
+        public async Task<string> ExportXMLDataAsync()
+        {
+            HttpResponseMessage responseMessage3 = await client.PostAsJsonAsync<List<CurveInfo>>(url + "/ExportData", CurvesData.LSTIndexInfo).ConfigureAwait(false);
+            if (responseMessage3.IsSuccessStatusCode)
+            {
+                return responseMessage3.Content.ReadAsStringAsync().Result;
+            }
+            else
+            {
+                Logger.WrieException("Failed to export data as xml");
+                throw new Exception("Failed to export data as xml");
+            }
         }
     }
 }
