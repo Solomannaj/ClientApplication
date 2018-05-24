@@ -29,7 +29,7 @@ namespace ClientApplication.Controllers
             CurvesData.LSTCurvesData.Clear();
             CurvesData.LSTCurveHeaders.Clear();
             CurvesData.LSTIndexInfo.Clear();
-            dataSubscriber.ConnectToRabbitMQ();
+
             string headers= handler.GetCurveHeadersAsync().Result;
             ViewBag.CurveHeaders = GetCurveHeaders(headers);
             return View();

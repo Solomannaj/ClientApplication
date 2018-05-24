@@ -40,7 +40,12 @@ namespace ClientApplication.BusinessLogic.Tests
         {
             try
             {
-                var k = new DataSubscriber();
+                using (ShimsContext.Create())
+                {
+                    ShimDataSubscriber.Constructor = (a) => { };
+                    var k = new DataSubscriber();
+                }
+               
             }
             catch (Exception)
             {
@@ -56,6 +61,7 @@ namespace ClientApplication.BusinessLogic.Tests
             {
                 using (ShimsContext.Create())
                 {
+                    ShimDataSubscriber.Constructor = (a) => { };
                     dataSubscriber = new DataSubscriber();
                     ShimConfigurationManager.AppSettingsGet = () => { return config; };
                     ShimLogger.WrieExceptionString = (a) => { p = a; };
@@ -80,6 +86,7 @@ namespace ClientApplication.BusinessLogic.Tests
             {
                 using (ShimsContext.Create())
                 {
+                    ShimDataSubscriber.Constructor = (a) => { };
                     dataSubscriber = new DataSubscriber();
                     ShimConfigurationManager.AppSettingsGet=()=>{ return config; };
                     ShimLogger.WrieExceptionString = (a) => { p = a; };

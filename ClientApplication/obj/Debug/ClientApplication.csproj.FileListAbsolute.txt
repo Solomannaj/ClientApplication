@@ -66,3 +66,4 @@ C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\System.Web.Helpers.xml
 C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\System.Web.Mvc.xml
 C:\MyDrive\Petro\ClientApplication\ClientApplication\obj\Debug\ClientApplication.dll
 C:\MyDrive\Petro\ClientApplication\ClientApplication\obj\Debug\ClientApplication.pdb
+C:\MyDrive\Petro\ClientApplication\ClientApplication\obj\Debug\ClientApplication.csprojResolveAssemblyReference.cache

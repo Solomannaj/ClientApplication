@@ -19,7 +19,31 @@ namespace ClientApplication.BusinessLogic
         private  IConnection connection; 
         private  IModel channel;
         private  ConnectionFactory factory;
-        private EventingBasicConsumer consumer;
+        private  EventingBasicConsumer consumer;
+
+        public DataSubscriber()
+        {
+            try
+            {
+                factory = new ConnectionFactory()
+                {
+                    HostName = ConfigurationManager.AppSettings["RabbitMQServer"],
+                    UserName = ConfigurationManager.AppSettings["RabbitMQUser"],
+                    Password = ConfigurationManager.AppSettings["RabbitMQPassword"],
+                    VirtualHost = ConfigurationManager.AppSettings["RabbitMQVirtualHost"],
+                    Port = Convert.ToInt32(ConfigurationManager.AppSettings["RabbitMQPort"])
+                };
+
+                connection = factory.CreateConnection();
+                channel = connection.CreateModel();
+                consumer = new EventingBasicConsumer(channel);
+            }
+            catch (Exception ex)
+            {
+                Logger.WrieException(string.Format("Failed to connect RabbitMQ channel - {0}", ex.Message));
+                throw new Exception(string.Format("Failed to connect RabbitMQ channel - {0}", ex.Message));
+            }
+        }
 
         public void ConnectToRabbitMQ()
         {
