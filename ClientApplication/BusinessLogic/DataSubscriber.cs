@@ -10,7 +10,9 @@ namespace ClientApplication.BusinessLogic
     public interface IDataSubscriber
     {
         void SubscribeData();
-        
+        void ConnectToRabbitMQ();
+
+
     }
     public class DataSubscriber : IDataSubscriber
     {
@@ -19,7 +21,7 @@ namespace ClientApplication.BusinessLogic
         private  ConnectionFactory factory;
         private EventingBasicConsumer consumer;
 
-        public DataSubscriber()
+        public void ConnectToRabbitMQ()
         {
             try
             {
@@ -41,7 +43,6 @@ namespace ClientApplication.BusinessLogic
                 Logger.WrieException(string.Format("Failed to connect RabbitMQ channel - {0}", ex.Message));
                 throw new Exception(string.Format("Failed to connect RabbitMQ channel - {0}", ex.Message));
             }
-           
         }
             
         public  void SubscribeData()

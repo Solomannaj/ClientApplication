@@ -33,6 +33,11 @@ C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\Microsoft.Diagnostics.T
 C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\Microsoft.Web.Infrastructure.dll
 C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\Newtonsoft.Json.dll
 C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\RabbitMQ.Client.dll
+C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\System.Net.Http.dll
+C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\System.Net.Http.Extensions.dll
+C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\System.Net.Http.Formatting.dll
+C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\System.Net.Http.Primitives.dll
+C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\System.Net.Http.WebRequest.dll
 C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\System.Web.Helpers.dll
 C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\System.Web.Mvc.dll
 C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\System.Web.Optimization.dll
@@ -50,6 +55,8 @@ C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\Microsoft.CodeDom.Provi
 C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\Microsoft.Diagnostics.Tracing.EventSource.xml
 C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\Newtonsoft.Json.xml
 C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\RabbitMQ.Client.xml
+C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\System.Net.Http.xml
+C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\System.Net.Http.WebRequest.xml
 C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\System.Web.Optimization.xml
 C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\System.Web.Razor.xml
 C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\System.Web.Webpages.xml
@@ -59,11 +66,3 @@ C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\System.Web.Helpers.xml
 C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\System.Web.Mvc.xml
 C:\MyDrive\Petro\ClientApplication\ClientApplication\obj\Debug\ClientApplication.dll
 C:\MyDrive\Petro\ClientApplication\ClientApplication\obj\Debug\ClientApplication.pdb
-C:\MyDrive\Petro\ClientApplication\ClientApplication\obj\Debug\ClientApplication.csprojResolveAssemblyReference.cache
-C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\System.Net.Http.dll
-C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\System.Net.Http.Extensions.dll
-C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\System.Net.Http.Formatting.dll
-C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\System.Net.Http.Primitives.dll
-C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\System.Net.Http.WebRequest.dll
-C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\System.Net.Http.xml
-C:\MyDrive\Petro\ClientApplication\ClientApplication\bin\System.Net.Http.WebRequest.xml

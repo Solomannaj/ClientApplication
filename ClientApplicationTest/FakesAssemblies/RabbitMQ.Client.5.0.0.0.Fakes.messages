@@ -1,0 +1,171 @@
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Util.DebugUtil: type is sealed.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Util.EitherAlternative: type is a value type.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Util.Either: type has no family visible contructors.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Util.SharedQueueEnumerator`1: type is a value type.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Util.SynchronizedList`1: type is not visible to exported or assembly(RabbitMQ.Client.5.0.0.0.Fakes).
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Client.AmqpTimestamp: type is a value type.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Client.ExchangeType: type is sealed.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Client.Headers: type is sealed.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Client.IAsyncConnectionFactory: type is not visible to exported or assembly(RabbitMQ.Client.5.0.0.0.Fakes).
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Client.EndpointResolverExtensions: type is sealed.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Client.IModelExensions: type is sealed.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Client.Protocols: type is sealed.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Client.QueueingBasicConsumer: type is obsolete.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Client.ShutdownInitiator: type is a value type.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Client.SslHelper: type has no family visible contructors.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Client.AsyncConsumerWorkService: type is not visible to exported or assembly(RabbitMQ.Client.5.0.0.0.Fakes).
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Client.ESLog: type is sealed.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Client.Logging.RabbitMqClientEventSource: type is sealed.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Client.Logging.RabbitMqConsoleEventListener: type is sealed.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Client.Framing.Impl.IProtocolExtensions: type is sealed.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Client.Framing.Impl.ClassId: type is a value type.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Client.Impl.AsyncConsumerDispatcher: type is not visible to exported or assembly(RabbitMQ.Client.5.0.0.0.Fakes).
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Client.Impl.BasicCancel: type is sealed.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Client.Impl.BasicCancelOk: type is sealed.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Client.Impl.BasicConsumeOk: type is sealed.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Client.Impl.BasicDeliver: type is sealed.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Client.Impl.AssemblyState: type is a value type.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Client.Impl.ConcurrentConsumerDispatcher: type is not visible to exported or assembly(RabbitMQ.Client.5.0.0.0.Fakes).
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Client.Impl.ExtensionMethods: type is sealed.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Client.Impl.ConnectionTuneDetails: type is a value type.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Client.Impl.ModelShutdown: type is sealed.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Client.Impl.TaskExtensions: type is sealed.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Client.Impl.Work: type is not visible to exported or assembly(RabbitMQ.Client.5.0.0.0.Fakes).
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Client.Events.AsyncEventHandler`1: type is sealed.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Client.Events.ConnectionRecoveryErrorEventArgs: type is sealed.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Client.Events.ConsumerTagChangedAfterRecoveryEventArgs: type is sealed.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Client.Events.QueueNameChangedAfterRecoveryEventArgs: type is sealed.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Client.Content.BytesWireFormatting: type is sealed.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Client.Content.MapWireFormatting: type is sealed.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Client.Content.PrimitiveParser: type is sealed.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Client.Content.StreamWireFormattingTag: type is a value type.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate stub for RabbitMQ.Client.Content.StreamWireFormatting: type is sealed.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Util.EitherAlternative: type is an enum.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Util.SynchronizedList`1: type is not visible to exported or assembly(RabbitMQ.Client.5.0.0.0.Fakes).
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.AsyncDefaultBasicConsumer+<OnCancel>d__26: type is not supported because of internal limitations.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.AuthMechanism: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.AuthMechanismFactory: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.ConnectionFactory+<>c: type is not supported because of internal limitations.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.ConnectionFactory+<>c__DisplayClass112_0: type is not supported because of internal limitations.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.IAsyncBasicConsumer: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.IAsyncConnectionFactory: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.IBasicConsumer: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.IBasicProperties: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.IConnection: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.IConnectionFactory: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.IContentHeader: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.IEndpointResolver: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.IMethod: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.IModel: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.IProtocol: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.IQueueingBasicConsumer: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.IRecoverable: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.IStreamProperties: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.ITcpClient: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.NetworkConnection: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.QueueingBasicConsumer: type is obsolete.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.ShutdownInitiator: type is an enum.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.AsyncConsumerWorkService: type is not visible to exported or assembly(RabbitMQ.Client.5.0.0.0.Fakes).
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.ConsumerWorkService+WorkPool: type is not visible to exported or assembly(RabbitMQ.Client.5.0.0.0.Fakes).
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.TcpClientAdapter+<ConnectAsync>d__2: type is not supported because of internal limitations.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.MessagePatterns.ISubscription: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IConnectionStart: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IConnectionStartOk: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IConnectionSecure: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IConnectionSecureOk: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IConnectionTune: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IConnectionTuneOk: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IConnectionOpen: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IConnectionOpenOk: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IConnectionClose: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IConnectionCloseOk: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IConnectionBlocked: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IConnectionUnblocked: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IChannelOpen: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IChannelOpenOk: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IChannelFlow: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IChannelFlowOk: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IChannelClose: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IChannelCloseOk: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IExchangeDeclare: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IExchangeDeclareOk: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IExchangeDelete: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IExchangeDeleteOk: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IExchangeBind: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IExchangeBindOk: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IExchangeUnbind: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IExchangeUnbindOk: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IQueueDeclare: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IQueueDeclareOk: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IQueueBind: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IQueueBindOk: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IQueueUnbind: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IQueueUnbindOk: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IQueuePurge: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IQueuePurgeOk: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IQueueDelete: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IQueueDeleteOk: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IBasicQos: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IBasicQosOk: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IBasicConsume: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IBasicConsumeOk: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IBasicCancel: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IBasicCancelOk: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IBasicPublish: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IBasicReturn: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IBasicDeliver: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IBasicGet: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IBasicGetOk: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IBasicGetEmpty: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IBasicAck: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IBasicReject: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IBasicRecoverAsync: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IBasicRecover: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IBasicRecoverOk: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IBasicNack: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.ITxSelect: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.ITxSelectOk: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.ITxCommit: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.ITxCommitOk: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.ITxRollback: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.ITxRollbackOk: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IConfirmSelect: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.IConfirmSelectOk: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.Impl.AutorecoveringConnection+<>c__DisplayClass101_0: type is not supported because of internal limitations.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.Impl.AutorecoveringConnection+<>c__DisplayClass102_0: type is not supported because of internal limitations.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.Impl.AutorecoveringConnection+<>c__DisplayClass103_0: type is not supported because of internal limitations.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.Impl.AutorecoveringConnection+<>c__DisplayClass104_0: type is not supported because of internal limitations.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.Impl.AutorecoveringConnection+<>c__DisplayClass115_0: type is not supported because of internal limitations.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.Impl.AutorecoveringConnection+<>c__DisplayClass130_0: type is not supported because of internal limitations.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.Impl.AutorecoveringConnection+<>c__DisplayClass131_0: type is not supported because of internal limitations.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.Impl.AutorecoveringConnection+<>c__DisplayClass95_0: type is not supported because of internal limitations.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Framing.Impl.ClassId: type is an enum.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Impl.AsyncConsumerDispatcher: type is not visible to exported or assembly(RabbitMQ.Client.5.0.0.0.Fakes).
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Impl.BasicCancel: type is not visible to exported or assembly(RabbitMQ.Client.5.0.0.0.Fakes).
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Impl.BasicCancelOk: type is not visible to exported or assembly(RabbitMQ.Client.5.0.0.0.Fakes).
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Impl.BasicConsumeOk: type is not visible to exported or assembly(RabbitMQ.Client.5.0.0.0.Fakes).
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Impl.BasicDeliver: type is not visible to exported or assembly(RabbitMQ.Client.5.0.0.0.Fakes).
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Impl.AssemblyState: type is an enum.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Impl.ConcurrentConsumerDispatcher: type is not visible to exported or assembly(RabbitMQ.Client.5.0.0.0.Fakes).
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Impl.IConsumerDispatcher: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Impl.IFrameHandler: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Impl.IFullModel: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Impl.IRpcContinuation: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Impl.ISession: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Impl.ModelShutdown: type is not visible to exported or assembly(RabbitMQ.Client.5.0.0.0.Fakes).
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Impl.TaskExtensions: type is not visible to exported or assembly(RabbitMQ.Client.5.0.0.0.Fakes).
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Impl.Work: type is not visible to exported or assembly(RabbitMQ.Client.5.0.0.0.Fakes).
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Events.AsyncEventHandler`1: type is a delegate.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Events.AsyncEventingBasicConsumer+<HandleBasicCancelOk>d__13: type is not supported because of internal limitations.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Events.AsyncEventingBasicConsumer+<HandleBasicConsumeOk>d__14: type is not supported because of internal limitations.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Events.AsyncEventingBasicConsumer+<HandleBasicDeliver>d__15: type is not supported because of internal limitations.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Events.AsyncEventingBasicConsumer+<HandleModelShutdown>d__16: type is not supported because of internal limitations.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Content.IBytesMessageBuilder: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Content.IBytesMessageReader: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Content.IMapMessageBuilder: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Content.IMapMessageReader: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Content.IMessageBuilder: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Content.IMessageReader: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Content.IStreamMessageBuilder: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Content.IStreamMessageReader: type is an interface.
+C:\MyDrive\Petro\ClientApplication\ClientApplicationTest\Fakes\RabbitMQ.Client.fakes : warning : Cannot generate shim for RabbitMQ.Client.Content.StreamWireFormattingTag: type is an enum.

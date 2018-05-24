@@ -26,6 +26,10 @@ namespace ClientApplication.Controllers
 
         public ActionResult Client()
         {
+            CurvesData.LSTCurvesData.Clear();
+            CurvesData.LSTCurveHeaders.Clear();
+            CurvesData.LSTIndexInfo.Clear();
+            dataSubscriber.ConnectToRabbitMQ();
             string headers= handler.GetCurveHeadersAsync().Result;
             ViewBag.CurveHeaders = GetCurveHeaders(headers);
             return View();

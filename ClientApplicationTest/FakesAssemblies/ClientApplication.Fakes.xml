@@ -1,0 +1,914 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClientApplication.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:ClientApplication.BusinessLogic.Fakes.ShimAPIHandler">
+            <summary>Shim type of ClientApplication.BusinessLogic.APIHandler</summary>
+        </member>
+        <member name="M:ClientApplication.BusinessLogic.Fakes.ShimAPIHandler.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ClientApplication.BusinessLogic.Fakes.ShimAPIHandler.#ctor(ClientApplication.BusinessLogic.APIHandler)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:ClientApplication.BusinessLogic.Fakes.ShimAPIHandler.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.ShimAPIHandler.AllInstances.ExportXMLDataAsync">
+            <summary>Sets the shim of APIHandler.ExportXMLDataAsync()</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.ShimAPIHandler.AllInstances.GetCurveHeadersAsync">
+            <summary>Sets the shim of APIHandler.GetCurveHeadersAsync()</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.ShimAPIHandler.AllInstances.InvokeDataTransfferAsyncString">
+            <summary>Sets the shim of APIHandler.InvokeDataTransfferAsync(String curves)</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.ShimAPIHandler.AllInstances.StopDataTransfferAsync">
+            <summary>Sets the shim of APIHandler.StopDataTransfferAsync()</summary>
+        </member>
+        <member name="M:ClientApplication.BusinessLogic.Fakes.ShimAPIHandler.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ClientApplication.BusinessLogic.Fakes.ShimAPIHandler.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.ShimAPIHandler.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ClientApplication.BusinessLogic.Fakes.ShimAPIHandler.Bind(ClientApplication.BusinessLogic.IAPIHandler)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.ShimAPIHandler.Constructor">
+            <summary>Sets the shim of APIHandler.APIHandler()</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.ShimAPIHandler.ExportXMLDataAsync">
+            <summary>Sets the shim of APIHandler.ExportXMLDataAsync()</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.ShimAPIHandler.GetCurveHeadersAsync">
+            <summary>Sets the shim of APIHandler.GetCurveHeadersAsync()</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.ShimAPIHandler.InvokeDataTransfferAsyncString">
+            <summary>Sets the shim of APIHandler.InvokeDataTransfferAsync(String curves)</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.ShimAPIHandler.StopDataTransfferAsync">
+            <summary>Sets the shim of APIHandler.StopDataTransfferAsync()</summary>
+        </member>
+        <member name="T:ClientApplication.BusinessLogic.Fakes.ShimCurvesData">
+            <summary>Shim type of ClientApplication.BusinessLogic.CurvesData</summary>
+        </member>
+        <member name="M:ClientApplication.BusinessLogic.Fakes.ShimCurvesData.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ClientApplication.BusinessLogic.Fakes.ShimCurvesData.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ClientApplication.BusinessLogic.Fakes.ShimCurvesData.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.ShimCurvesData.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.ShimCurvesData.ClearPrevData">
+            <summary>Sets the shim of CurvesData.ClearPrevData()</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.ShimCurvesData.LSTCurveHeadersGet">
+            <summary>Sets the shim of CurvesData.get_LSTCurveHeaders()</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.ShimCurvesData.LSTCurveHeadersSetListOfString">
+            <summary>Sets the shim of CurvesData.set_LSTCurveHeaders(List`1&lt;String&gt; value)</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.ShimCurvesData.LSTCurvesDataGet">
+            <summary>Sets the shim of CurvesData.get_LSTCurvesData()</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.ShimCurvesData.LSTCurvesDataSetListOfString">
+            <summary>Sets the shim of CurvesData.set_LSTCurvesData(List`1&lt;String&gt; value)</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.ShimCurvesData.LSTIndexInfoGet">
+            <summary>Sets the shim of CurvesData.get_LSTIndexInfo()</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.ShimCurvesData.LSTIndexInfoSetListOfCurveInfo">
+            <summary>Sets the shim of CurvesData.set_LSTIndexInfo(List`1&lt;CurveInfo&gt; value)</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.ShimCurvesData.StaticConstructor">
+            <summary>Sets the shim of CurvesData.CurvesData()</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.ShimCurvesData.UpdateDataString">
+            <summary>Sets the shim of CurvesData.UpdateData(String curveData)</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.ShimCurvesData.UpdateHeadersStringArray">
+            <summary>Sets the shim of CurvesData.UpdateHeaders(String[] curveHeaders)</summary>
+        </member>
+        <member name="T:ClientApplication.BusinessLogic.Fakes.ShimDataSubscriber">
+            <summary>Shim type of ClientApplication.BusinessLogic.DataSubscriber</summary>
+        </member>
+        <member name="M:ClientApplication.BusinessLogic.Fakes.ShimDataSubscriber.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ClientApplication.BusinessLogic.Fakes.ShimDataSubscriber.#ctor(ClientApplication.BusinessLogic.DataSubscriber)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:ClientApplication.BusinessLogic.Fakes.ShimDataSubscriber.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.ShimDataSubscriber.AllInstances.ConnectToRabbitMQ">
+            <summary>Sets the shim of DataSubscriber.ConnectToRabbitMQ()</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.ShimDataSubscriber.AllInstances.SubscribeData">
+            <summary>Sets the shim of DataSubscriber.SubscribeData()</summary>
+        </member>
+        <member name="M:ClientApplication.BusinessLogic.Fakes.ShimDataSubscriber.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ClientApplication.BusinessLogic.Fakes.ShimDataSubscriber.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.ShimDataSubscriber.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ClientApplication.BusinessLogic.Fakes.ShimDataSubscriber.Bind(ClientApplication.BusinessLogic.IDataSubscriber)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.ShimDataSubscriber.ConnectToRabbitMQ">
+            <summary>Sets the shim of DataSubscriber.ConnectToRabbitMQ()</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.ShimDataSubscriber.Constructor">
+            <summary>Sets the shim of DataSubscriber.DataSubscriber()</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.ShimDataSubscriber.SubscribeData">
+            <summary>Sets the shim of DataSubscriber.SubscribeData()</summary>
+        </member>
+        <member name="T:ClientApplication.BusinessLogic.Fakes.ShimLogger">
+            <summary>Shim type of ClientApplication.BusinessLogic.Logger</summary>
+        </member>
+        <member name="M:ClientApplication.BusinessLogic.Fakes.ShimLogger.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ClientApplication.BusinessLogic.Fakes.ShimLogger.#ctor(ClientApplication.BusinessLogic.Logger)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:ClientApplication.BusinessLogic.Fakes.ShimLogger.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:ClientApplication.BusinessLogic.Fakes.ShimLogger.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ClientApplication.BusinessLogic.Fakes.ShimLogger.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.ShimLogger.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.ShimLogger.Constructor">
+            <summary>Sets the shim of Logger.Logger()</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.ShimLogger.LogStringTextWriter">
+            <summary>Sets the shim of Logger.Log(String logMessage, TextWriter w)</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.ShimLogger.WrieExceptionString">
+            <summary>Sets the shim of Logger.WrieException(String exception)</summary>
+        </member>
+        <member name="T:ClientApplication.BusinessLogic.Fakes.StubAPIHandler">
+            <summary>Stub type of ClientApplication.BusinessLogic.APIHandler</summary>
+        </member>
+        <member name="M:ClientApplication.BusinessLogic.Fakes.StubAPIHandler.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.StubAPIHandler.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:ClientApplication.BusinessLogic.Fakes.StubAPIHandler.InitializeStub">
+            <summary>Initializes a new instance of type StubAPIHandler</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.StubAPIHandler.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.StubAPIHandler.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:ClientApplication.BusinessLogic.Fakes.StubDataSubscriber">
+            <summary>Stub type of ClientApplication.BusinessLogic.DataSubscriber</summary>
+        </member>
+        <member name="M:ClientApplication.BusinessLogic.Fakes.StubDataSubscriber.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.StubDataSubscriber.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:ClientApplication.BusinessLogic.Fakes.StubDataSubscriber.InitializeStub">
+            <summary>Initializes a new instance of type StubDataSubscriber</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.StubDataSubscriber.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.StubDataSubscriber.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:ClientApplication.BusinessLogic.Fakes.StubIAPIHandler">
+            <summary>Stub type of ClientApplication.BusinessLogic.IAPIHandler</summary>
+        </member>
+        <member name="M:ClientApplication.BusinessLogic.Fakes.StubIAPIHandler.#ctor">
+            <summary>Initializes a new instance of type StubIAPIHandler</summary>
+        </member>
+        <member name="M:ClientApplication.BusinessLogic.Fakes.StubIAPIHandler.ClientApplication#BusinessLogic#IAPIHandler#ExportXMLDataAsync">
+            <summary>Sets the stub of IAPIHandler.ExportXMLDataAsync()</summary>
+        </member>
+        <member name="M:ClientApplication.BusinessLogic.Fakes.StubIAPIHandler.ClientApplication#BusinessLogic#IAPIHandler#GetCurveHeadersAsync">
+            <summary>Sets the stub of IAPIHandler.GetCurveHeadersAsync()</summary>
+        </member>
+        <member name="M:ClientApplication.BusinessLogic.Fakes.StubIAPIHandler.ClientApplication#BusinessLogic#IAPIHandler#InvokeDataTransfferAsync(System.String)">
+            <summary>Sets the stub of IAPIHandler.InvokeDataTransfferAsync(String curves)</summary>
+        </member>
+        <member name="M:ClientApplication.BusinessLogic.Fakes.StubIAPIHandler.ClientApplication#BusinessLogic#IAPIHandler#StopDataTransfferAsync">
+            <summary>Sets the stub of IAPIHandler.StopDataTransfferAsync()</summary>
+        </member>
+        <member name="F:ClientApplication.BusinessLogic.Fakes.StubIAPIHandler.ExportXMLDataAsync">
+            <summary>Sets the stub of IAPIHandler.ExportXMLDataAsync()</summary>
+        </member>
+        <member name="F:ClientApplication.BusinessLogic.Fakes.StubIAPIHandler.GetCurveHeadersAsync">
+            <summary>Sets the stub of IAPIHandler.GetCurveHeadersAsync()</summary>
+        </member>
+        <member name="F:ClientApplication.BusinessLogic.Fakes.StubIAPIHandler.InvokeDataTransfferAsyncString">
+            <summary>Sets the stub of IAPIHandler.InvokeDataTransfferAsync(String curves)</summary>
+        </member>
+        <member name="F:ClientApplication.BusinessLogic.Fakes.StubIAPIHandler.StopDataTransfferAsync">
+            <summary>Sets the stub of IAPIHandler.StopDataTransfferAsync()</summary>
+        </member>
+        <member name="T:ClientApplication.BusinessLogic.Fakes.StubIDataSubscriber">
+            <summary>Stub type of ClientApplication.BusinessLogic.IDataSubscriber</summary>
+        </member>
+        <member name="M:ClientApplication.BusinessLogic.Fakes.StubIDataSubscriber.#ctor">
+            <summary>Initializes a new instance of type StubIDataSubscriber</summary>
+        </member>
+        <member name="M:ClientApplication.BusinessLogic.Fakes.StubIDataSubscriber.ClientApplication#BusinessLogic#IDataSubscriber#ConnectToRabbitMQ">
+            <summary>Sets the stub of IDataSubscriber.ConnectToRabbitMQ()</summary>
+        </member>
+        <member name="M:ClientApplication.BusinessLogic.Fakes.StubIDataSubscriber.ClientApplication#BusinessLogic#IDataSubscriber#SubscribeData">
+            <summary>Sets the stub of IDataSubscriber.SubscribeData()</summary>
+        </member>
+        <member name="F:ClientApplication.BusinessLogic.Fakes.StubIDataSubscriber.ConnectToRabbitMQ">
+            <summary>Sets the stub of IDataSubscriber.ConnectToRabbitMQ()</summary>
+        </member>
+        <member name="F:ClientApplication.BusinessLogic.Fakes.StubIDataSubscriber.SubscribeData">
+            <summary>Sets the stub of IDataSubscriber.SubscribeData()</summary>
+        </member>
+        <member name="T:ClientApplication.BusinessLogic.Fakes.StubLogger">
+            <summary>Stub type of ClientApplication.BusinessLogic.Logger</summary>
+        </member>
+        <member name="M:ClientApplication.BusinessLogic.Fakes.StubLogger.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.StubLogger.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:ClientApplication.BusinessLogic.Fakes.StubLogger.InitializeStub">
+            <summary>Initializes a new instance of type StubLogger</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.StubLogger.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ClientApplication.BusinessLogic.Fakes.StubLogger.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:ClientApplication.Controllers.Fakes.ShimClientController">
+            <summary>Shim type of ClientApplication.Controllers.ClientController</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.ShimClientController.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.ShimClientController.#ctor(ClientApplication.Controllers.ClientController)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:ClientApplication.Controllers.Fakes.ShimClientController.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ClientApplication.Controllers.Fakes.ShimClientController.AllInstances.Client">
+            <summary>Sets the shim of ClientController.Client()</summary>
+        </member>
+        <member name="P:ClientApplication.Controllers.Fakes.ShimClientController.AllInstances.ExportData">
+            <summary>Sets the shim of ClientController.ExportData()</summary>
+        </member>
+        <member name="P:ClientApplication.Controllers.Fakes.ShimClientController.AllInstances.GetCurveHeadersString">
+            <summary>Sets the shim of ClientController.GetCurveHeaders(String headers)</summary>
+        </member>
+        <member name="P:ClientApplication.Controllers.Fakes.ShimClientController.AllInstances.InvokeDataTransferStringArray">
+            <summary>Sets the shim of ClientController.InvokeDataTransfer(String[] curves)</summary>
+        </member>
+        <member name="P:ClientApplication.Controllers.Fakes.ShimClientController.AllInstances.OnExceptionExceptionContext">
+            <summary>Sets the shim of ClientController.OnException(ExceptionContext filterContext)</summary>
+        </member>
+        <member name="P:ClientApplication.Controllers.Fakes.ShimClientController.AllInstances.StopDataTransfer">
+            <summary>Sets the shim of ClientController.StopDataTransfer()</summary>
+        </member>
+        <member name="P:ClientApplication.Controllers.Fakes.ShimClientController.AllInstances.SubscribeData">
+            <summary>Sets the shim of ClientController.SubscribeData()</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.ShimClientController.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.ShimClientController.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClientApplication.Controllers.Fakes.ShimClientController.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.ShimClientController.Bind(System.Web.Mvc.IActionFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.ShimClientController.Bind(System.Web.Mvc.IAuthorizationFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.ShimClientController.Bind(System.Web.Mvc.IController)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.ShimClientController.Bind(System.Web.Mvc.IExceptionFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.ShimClientController.Bind(System.Web.Mvc.IResultFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.ShimClientController.Bind(System.Web.Mvc.Async.IAsyncController)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.ShimClientController.Bind(System.Web.Mvc.Async.IAsyncManagerContainer)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.ShimClientController.Bind(System.Web.Mvc.Filters.IAuthenticationFilter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.ShimClientController.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:ClientApplication.Controllers.Fakes.ShimClientController.Client">
+            <summary>Sets the shim of ClientController.Client()</summary>
+        </member>
+        <member name="P:ClientApplication.Controllers.Fakes.ShimClientController.ConstructorIAPIHandlerIDataSubscriber">
+            <summary>Sets the shim of ClientController.ClientController(IAPIHandler objHandler, IDataSubscriber objSubscriber)</summary>
+        </member>
+        <member name="P:ClientApplication.Controllers.Fakes.ShimClientController.ExportData">
+            <summary>Sets the shim of ClientController.ExportData()</summary>
+        </member>
+        <member name="P:ClientApplication.Controllers.Fakes.ShimClientController.GetCurveHeadersString">
+            <summary>Sets the shim of ClientController.GetCurveHeaders(String headers)</summary>
+        </member>
+        <member name="P:ClientApplication.Controllers.Fakes.ShimClientController.InvokeDataTransferStringArray">
+            <summary>Sets the shim of ClientController.InvokeDataTransfer(String[] curves)</summary>
+        </member>
+        <member name="P:ClientApplication.Controllers.Fakes.ShimClientController.OnExceptionExceptionContext">
+            <summary>Sets the shim of ClientController.OnException(ExceptionContext filterContext)</summary>
+        </member>
+        <member name="P:ClientApplication.Controllers.Fakes.ShimClientController.StopDataTransfer">
+            <summary>Sets the shim of ClientController.StopDataTransfer()</summary>
+        </member>
+        <member name="P:ClientApplication.Controllers.Fakes.ShimClientController.SubscribeData">
+            <summary>Sets the shim of ClientController.SubscribeData()</summary>
+        </member>
+        <member name="T:ClientApplication.Controllers.Fakes.StubClientController">
+            <summary>Stub type of ClientApplication.Controllers.ClientController</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.StubClientController.#ctor(ClientApplication.BusinessLogic.IAPIHandler,ClientApplication.BusinessLogic.IDataSubscriber)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.StubClientController.BeginExecute(System.Web.Routing.RequestContext,System.AsyncCallback,System.Object)">
+            <summary>Sets the stub of Controller.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.StubClientController.BeginExecuteCore(System.AsyncCallback,System.Object)">
+            <summary>Sets the stub of Controller.BeginExecuteCore(AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="F:ClientApplication.Controllers.Fakes.StubClientController.BeginExecuteCoreAsyncCallbackObject">
+            <summary>Sets the stub of Controller.BeginExecuteCore(AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="F:ClientApplication.Controllers.Fakes.StubClientController.BeginExecuteRequestContextAsyncCallbackObject">
+            <summary>Sets the stub of Controller.BeginExecute(RequestContext requestContext, AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="P:ClientApplication.Controllers.Fakes.StubClientController.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.StubClientController.CreateActionInvoker">
+            <summary>Sets the stub of Controller.CreateActionInvoker()</summary>
+        </member>
+        <member name="F:ClientApplication.Controllers.Fakes.StubClientController.CreateActionInvoker01">
+            <summary>Sets the stub of Controller.CreateActionInvoker()</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.StubClientController.CreateTempDataProvider">
+            <summary>Sets the stub of Controller.CreateTempDataProvider()</summary>
+        </member>
+        <member name="F:ClientApplication.Controllers.Fakes.StubClientController.CreateTempDataProvider01">
+            <summary>Sets the stub of Controller.CreateTempDataProvider()</summary>
+        </member>
+        <member name="P:ClientApplication.Controllers.Fakes.StubClientController.DisableAsyncSupport">
+            <summary>Sets the stub of Controller.get_DisableAsyncSupport()</summary>
+        </member>
+        <member name="F:ClientApplication.Controllers.Fakes.StubClientController.DisableAsyncSupportGet">
+            <summary>Sets the stub of Controller.get_DisableAsyncSupport()</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.StubClientController.Dispose(System.Boolean)">
+            <summary>Sets the stub of Controller.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:ClientApplication.Controllers.Fakes.StubClientController.DisposeBoolean">
+            <summary>Sets the stub of Controller.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.StubClientController.EndExecute(System.IAsyncResult)">
+            <summary>Sets the stub of Controller.EndExecute(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.StubClientController.EndExecuteCore(System.IAsyncResult)">
+            <summary>Sets the stub of Controller.EndExecuteCore(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="F:ClientApplication.Controllers.Fakes.StubClientController.EndExecuteCoreIAsyncResult">
+            <summary>Sets the stub of Controller.EndExecuteCore(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="F:ClientApplication.Controllers.Fakes.StubClientController.EndExecuteIAsyncResult">
+            <summary>Sets the stub of Controller.EndExecute(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.StubClientController.Execute(System.Web.Routing.RequestContext)">
+            <summary>Sets the stub of ControllerBase.Execute(RequestContext requestContext)</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.StubClientController.ExecuteCore">
+            <summary>Sets the stub of Controller.ExecuteCore()</summary>
+        </member>
+        <member name="F:ClientApplication.Controllers.Fakes.StubClientController.ExecuteCore01">
+            <summary>Sets the stub of Controller.ExecuteCore()</summary>
+        </member>
+        <member name="F:ClientApplication.Controllers.Fakes.StubClientController.ExecuteRequestContext">
+            <summary>Sets the stub of ControllerBase.Execute(RequestContext requestContext)</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.StubClientController.File(System.Byte[],System.String,System.String)">
+            <summary>Sets the stub of Controller.File(Byte[] fileContents, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.StubClientController.File(System.String,System.String,System.String)">
+            <summary>Sets the stub of Controller.File(String fileName, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.StubClientController.File(System.IO.Stream,System.String,System.String)">
+            <summary>Sets the stub of Controller.File(Stream fileStream, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="F:ClientApplication.Controllers.Fakes.StubClientController.FileByteArrayStringString">
+            <summary>Sets the stub of Controller.File(Byte[] fileContents, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="F:ClientApplication.Controllers.Fakes.StubClientController.FileStreamStringString">
+            <summary>Sets the stub of Controller.File(Stream fileStream, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="F:ClientApplication.Controllers.Fakes.StubClientController.FileStringStringString">
+            <summary>Sets the stub of Controller.File(String fileName, String contentType, String fileDownloadName)</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.StubClientController.HandleUnknownAction(System.String)">
+            <summary>Sets the stub of Controller.HandleUnknownAction(String actionName)</summary>
+        </member>
+        <member name="F:ClientApplication.Controllers.Fakes.StubClientController.HandleUnknownActionString">
+            <summary>Sets the stub of Controller.HandleUnknownAction(String actionName)</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.StubClientController.HttpNotFound(System.String)">
+            <summary>Sets the stub of Controller.HttpNotFound(String statusDescription)</summary>
+        </member>
+        <member name="F:ClientApplication.Controllers.Fakes.StubClientController.HttpNotFoundString">
+            <summary>Sets the stub of Controller.HttpNotFound(String statusDescription)</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.StubClientController.Initialize(System.Web.Routing.RequestContext)">
+            <summary>Sets the stub of Controller.Initialize(RequestContext requestContext)</summary>
+        </member>
+        <member name="F:ClientApplication.Controllers.Fakes.StubClientController.InitializeRequestContext">
+            <summary>Sets the stub of Controller.Initialize(RequestContext requestContext)</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.StubClientController.InitializeStub">
+            <summary>Initializes a new instance of type StubClientController</summary>
+        </member>
+        <member name="P:ClientApplication.Controllers.Fakes.StubClientController.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ClientApplication.Controllers.Fakes.StubClientController.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.StubClientController.JavaScript(System.String)">
+            <summary>Sets the stub of Controller.JavaScript(String script)</summary>
+        </member>
+        <member name="F:ClientApplication.Controllers.Fakes.StubClientController.JavaScriptString">
+            <summary>Sets the stub of Controller.JavaScript(String script)</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.StubClientController.OnActionExecuted(System.Web.Mvc.ActionExecutedContext)">
+            <summary>Sets the stub of Controller.OnActionExecuted(ActionExecutedContext filterContext)</summary>
+        </member>
+        <member name="F:ClientApplication.Controllers.Fakes.StubClientController.OnActionExecutedActionExecutedContext">
+            <summary>Sets the stub of Controller.OnActionExecuted(ActionExecutedContext filterContext)</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.StubClientController.OnActionExecuting(System.Web.Mvc.ActionExecutingContext)">
+            <summary>Sets the stub of Controller.OnActionExecuting(ActionExecutingContext filterContext)</summary>
+        </member>
+        <member name="F:ClientApplication.Controllers.Fakes.StubClientController.OnActionExecutingActionExecutingContext">
+            <summary>Sets the stub of Controller.OnActionExecuting(ActionExecutingContext filterContext)</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.StubClientController.OnAuthentication(System.Web.Mvc.Filters.AuthenticationContext)">
+            <summary>Sets the stub of Controller.OnAuthentication(AuthenticationContext filterContext)</summary>
+        </member>
+        <member name="F:ClientApplication.Controllers.Fakes.StubClientController.OnAuthenticationAuthenticationContext">
+            <summary>Sets the stub of Controller.OnAuthentication(AuthenticationContext filterContext)</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.StubClientController.OnAuthenticationChallenge(System.Web.Mvc.Filters.AuthenticationChallengeContext)">
+            <summary>Sets the stub of Controller.OnAuthenticationChallenge(AuthenticationChallengeContext filterContext)</summary>
+        </member>
+        <member name="F:ClientApplication.Controllers.Fakes.StubClientController.OnAuthenticationChallengeAuthenticationChallengeContext">
+            <summary>Sets the stub of Controller.OnAuthenticationChallenge(AuthenticationChallengeContext filterContext)</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.StubClientController.OnAuthorization(System.Web.Mvc.AuthorizationContext)">
+            <summary>Sets the stub of Controller.OnAuthorization(AuthorizationContext filterContext)</summary>
+        </member>
+        <member name="F:ClientApplication.Controllers.Fakes.StubClientController.OnAuthorizationAuthorizationContext">
+            <summary>Sets the stub of Controller.OnAuthorization(AuthorizationContext filterContext)</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.StubClientController.OnException(System.Web.Mvc.ExceptionContext)">
+            <summary>Sets the stub of ClientController.OnException(ExceptionContext filterContext)</summary>
+        </member>
+        <member name="F:ClientApplication.Controllers.Fakes.StubClientController.OnExceptionExceptionContext">
+            <summary>Sets the stub of ClientController.OnException(ExceptionContext filterContext)</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.StubClientController.OnResultExecuted(System.Web.Mvc.ResultExecutedContext)">
+            <summary>Sets the stub of Controller.OnResultExecuted(ResultExecutedContext filterContext)</summary>
+        </member>
+        <member name="F:ClientApplication.Controllers.Fakes.StubClientController.OnResultExecutedResultExecutedContext">
+            <summary>Sets the stub of Controller.OnResultExecuted(ResultExecutedContext filterContext)</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.StubClientController.OnResultExecuting(System.Web.Mvc.ResultExecutingContext)">
+            <summary>Sets the stub of Controller.OnResultExecuting(ResultExecutingContext filterContext)</summary>
+        </member>
+        <member name="F:ClientApplication.Controllers.Fakes.StubClientController.OnResultExecutingResultExecutingContext">
+            <summary>Sets the stub of Controller.OnResultExecuting(ResultExecutingContext filterContext)</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.StubClientController.PartialView(System.String,System.Object)">
+            <summary>Sets the stub of Controller.PartialView(String viewName, Object model)</summary>
+        </member>
+        <member name="F:ClientApplication.Controllers.Fakes.StubClientController.PartialViewStringObject">
+            <summary>Sets the stub of Controller.PartialView(String viewName, Object model)</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.StubClientController.Redirect(System.String)">
+            <summary>Sets the stub of Controller.Redirect(String url)</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.StubClientController.RedirectPermanent(System.String)">
+            <summary>Sets the stub of Controller.RedirectPermanent(String url)</summary>
+        </member>
+        <member name="F:ClientApplication.Controllers.Fakes.StubClientController.RedirectPermanentString">
+            <summary>Sets the stub of Controller.RedirectPermanent(String url)</summary>
+        </member>
+        <member name="F:ClientApplication.Controllers.Fakes.StubClientController.RedirectString">
+            <summary>Sets the stub of Controller.Redirect(String url)</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.StubClientController.RedirectToAction(System.String,System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToAction(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.StubClientController.RedirectToActionPermanent(System.String,System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToActionPermanent(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:ClientApplication.Controllers.Fakes.StubClientController.RedirectToActionPermanentStringStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToActionPermanent(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:ClientApplication.Controllers.Fakes.StubClientController.RedirectToActionStringStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToAction(String actionName, String controllerName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.StubClientController.RedirectToRoute(System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToRoute(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.StubClientController.RedirectToRoutePermanent(System.String,System.Web.Routing.RouteValueDictionary)">
+            <summary>Sets the stub of Controller.RedirectToRoutePermanent(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:ClientApplication.Controllers.Fakes.StubClientController.RedirectToRoutePermanentStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToRoutePermanent(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="F:ClientApplication.Controllers.Fakes.StubClientController.RedirectToRouteStringRouteValueDictionary">
+            <summary>Sets the stub of Controller.RedirectToRoute(String routeName, RouteValueDictionary routeValues)</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.StubClientController.View(System.Web.Mvc.IView,System.Object)">
+            <summary>Sets the stub of Controller.View(IView view, Object model)</summary>
+        </member>
+        <member name="M:ClientApplication.Controllers.Fakes.StubClientController.View(System.String,System.String,System.Object)">
+            <summary>Sets the stub of Controller.View(String viewName, String masterName, Object model)</summary>
+        </member>
+        <member name="F:ClientApplication.Controllers.Fakes.StubClientController.ViewIViewObject">
+            <summary>Sets the stub of Controller.View(IView view, Object model)</summary>
+        </member>
+        <member name="F:ClientApplication.Controllers.Fakes.StubClientController.ViewStringStringObject">
+            <summary>Sets the stub of Controller.View(String viewName, String masterName, Object model)</summary>
+        </member>
+        <member name="T:ClientApplication.Fakes.ShimBundleConfig">
+            <summary>Shim type of ClientApplication.BundleConfig</summary>
+        </member>
+        <member name="M:ClientApplication.Fakes.ShimBundleConfig.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ClientApplication.Fakes.ShimBundleConfig.#ctor(ClientApplication.BundleConfig)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:ClientApplication.Fakes.ShimBundleConfig.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:ClientApplication.Fakes.ShimBundleConfig.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ClientApplication.Fakes.ShimBundleConfig.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClientApplication.Fakes.ShimBundleConfig.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClientApplication.Fakes.ShimBundleConfig.Constructor">
+            <summary>Sets the shim of BundleConfig.BundleConfig()</summary>
+        </member>
+        <member name="P:ClientApplication.Fakes.ShimBundleConfig.RegisterBundlesBundleCollection">
+            <summary>Sets the shim of BundleConfig.RegisterBundles(BundleCollection bundles)</summary>
+        </member>
+        <member name="T:ClientApplication.Fakes.ShimMvcApplication">
+            <summary>Shim type of ClientApplication.MvcApplication</summary>
+        </member>
+        <member name="M:ClientApplication.Fakes.ShimMvcApplication.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ClientApplication.Fakes.ShimMvcApplication.#ctor(ClientApplication.MvcApplication)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:ClientApplication.Fakes.ShimMvcApplication.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ClientApplication.Fakes.ShimMvcApplication.AllInstances.Application_Start">
+            <summary>Sets the shim of MvcApplication.Application_Start()</summary>
+        </member>
+        <member name="P:ClientApplication.Fakes.ShimMvcApplication.Application_Start">
+            <summary>Sets the shim of MvcApplication.Application_Start()</summary>
+        </member>
+        <member name="M:ClientApplication.Fakes.ShimMvcApplication.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ClientApplication.Fakes.ShimMvcApplication.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClientApplication.Fakes.ShimMvcApplication.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ClientApplication.Fakes.ShimMvcApplication.Bind(System.ComponentModel.IComponent)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ClientApplication.Fakes.ShimMvcApplication.Bind(System.Web.IHttpAsyncHandler)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ClientApplication.Fakes.ShimMvcApplication.Bind(System.Web.IHttpHandler)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ClientApplication.Fakes.ShimMvcApplication.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:ClientApplication.Fakes.ShimMvcApplication.Constructor">
+            <summary>Sets the shim of MvcApplication.MvcApplication()</summary>
+        </member>
+        <member name="T:ClientApplication.Fakes.ShimMvcApplication.ShimBootstrapper">
+            <summary>Shim type of ClientApplication.MvcApplication+Bootstrapper</summary>
+        </member>
+        <member name="M:ClientApplication.Fakes.ShimMvcApplication.ShimBootstrapper.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ClientApplication.Fakes.ShimMvcApplication.ShimBootstrapper.#ctor(ClientApplication.MvcApplication.Bootstrapper)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:ClientApplication.Fakes.ShimMvcApplication.ShimBootstrapper.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:ClientApplication.Fakes.ShimMvcApplication.ShimBootstrapper.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ClientApplication.Fakes.ShimMvcApplication.ShimBootstrapper.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClientApplication.Fakes.ShimMvcApplication.ShimBootstrapper.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClientApplication.Fakes.ShimMvcApplication.ShimBootstrapper.Constructor">
+            <summary>Sets the shim of Bootstrapper.Bootstrapper()</summary>
+        </member>
+        <member name="P:ClientApplication.Fakes.ShimMvcApplication.ShimBootstrapper.Initialise">
+            <summary>Sets the shim of Bootstrapper.Initialise()</summary>
+        </member>
+        <member name="T:ClientApplication.Fakes.ShimRouteConfig">
+            <summary>Shim type of ClientApplication.RouteConfig</summary>
+        </member>
+        <member name="M:ClientApplication.Fakes.ShimRouteConfig.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ClientApplication.Fakes.ShimRouteConfig.#ctor(ClientApplication.RouteConfig)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:ClientApplication.Fakes.ShimRouteConfig.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:ClientApplication.Fakes.ShimRouteConfig.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ClientApplication.Fakes.ShimRouteConfig.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClientApplication.Fakes.ShimRouteConfig.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClientApplication.Fakes.ShimRouteConfig.Constructor">
+            <summary>Sets the shim of RouteConfig.RouteConfig()</summary>
+        </member>
+        <member name="P:ClientApplication.Fakes.ShimRouteConfig.RegisterRoutesRouteCollection">
+            <summary>Sets the shim of RouteConfig.RegisterRoutes(RouteCollection routes)</summary>
+        </member>
+        <member name="T:ClientApplication.Fakes.ShimUnityConfig">
+            <summary>Shim type of ClientApplication.UnityConfig</summary>
+        </member>
+        <member name="M:ClientApplication.Fakes.ShimUnityConfig.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ClientApplication.Fakes.ShimUnityConfig.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ClientApplication.Fakes.ShimUnityConfig.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClientApplication.Fakes.ShimUnityConfig.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClientApplication.Fakes.ShimUnityConfig.ContainerGet">
+            <summary>Sets the shim of UnityConfig.get_Container()</summary>
+        </member>
+        <member name="P:ClientApplication.Fakes.ShimUnityConfig.RegisterTypesIUnityContainer">
+            <summary>Sets the shim of UnityConfig.RegisterTypes(IUnityContainer container)</summary>
+        </member>
+        <member name="P:ClientApplication.Fakes.ShimUnityConfig.StaticConstructor">
+            <summary>Sets the shim of UnityConfig.UnityConfig()</summary>
+        </member>
+        <member name="T:ClientApplication.Fakes.ShimUnityMvcActivator">
+            <summary>Shim type of ClientApplication.UnityMvcActivator</summary>
+        </member>
+        <member name="M:ClientApplication.Fakes.ShimUnityMvcActivator.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ClientApplication.Fakes.ShimUnityMvcActivator.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ClientApplication.Fakes.ShimUnityMvcActivator.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClientApplication.Fakes.ShimUnityMvcActivator.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClientApplication.Fakes.ShimUnityMvcActivator.Shutdown">
+            <summary>Sets the shim of UnityMvcActivator.Shutdown()</summary>
+        </member>
+        <member name="P:ClientApplication.Fakes.ShimUnityMvcActivator.Start">
+            <summary>Sets the shim of UnityMvcActivator.Start()</summary>
+        </member>
+        <member name="T:ClientApplication.Fakes.StubBundleConfig">
+            <summary>Stub type of ClientApplication.BundleConfig</summary>
+        </member>
+        <member name="M:ClientApplication.Fakes.StubBundleConfig.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:ClientApplication.Fakes.StubBundleConfig.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:ClientApplication.Fakes.StubBundleConfig.InitializeStub">
+            <summary>Initializes a new instance of type StubBundleConfig</summary>
+        </member>
+        <member name="P:ClientApplication.Fakes.StubBundleConfig.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ClientApplication.Fakes.StubBundleConfig.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:ClientApplication.Fakes.StubMvcApplication">
+            <summary>Stub type of ClientApplication.MvcApplication</summary>
+        </member>
+        <member name="M:ClientApplication.Fakes.StubMvcApplication.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:ClientApplication.Fakes.StubMvcApplication.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:ClientApplication.Fakes.StubMvcApplication.Dispose">
+            <summary>Sets the stub of HttpApplication.Dispose()</summary>
+        </member>
+        <member name="F:ClientApplication.Fakes.StubMvcApplication.Dispose01">
+            <summary>Sets the stub of HttpApplication.Dispose()</summary>
+        </member>
+        <member name="M:ClientApplication.Fakes.StubMvcApplication.GetOutputCacheProviderName(System.Web.HttpContext)">
+            <summary>Sets the stub of HttpApplication.GetOutputCacheProviderName(HttpContext context)</summary>
+        </member>
+        <member name="F:ClientApplication.Fakes.StubMvcApplication.GetOutputCacheProviderNameHttpContext">
+            <summary>Sets the stub of HttpApplication.GetOutputCacheProviderName(HttpContext context)</summary>
+        </member>
+        <member name="M:ClientApplication.Fakes.StubMvcApplication.GetVaryByCustomString(System.Web.HttpContext,System.String)">
+            <summary>Sets the stub of HttpApplication.GetVaryByCustomString(HttpContext context, String custom)</summary>
+        </member>
+        <member name="F:ClientApplication.Fakes.StubMvcApplication.GetVaryByCustomStringHttpContextString">
+            <summary>Sets the stub of HttpApplication.GetVaryByCustomString(HttpContext context, String custom)</summary>
+        </member>
+        <member name="M:ClientApplication.Fakes.StubMvcApplication.Init">
+            <summary>Sets the stub of HttpApplication.Init()</summary>
+        </member>
+        <member name="F:ClientApplication.Fakes.StubMvcApplication.Init01">
+            <summary>Sets the stub of HttpApplication.Init()</summary>
+        </member>
+        <member name="M:ClientApplication.Fakes.StubMvcApplication.InitializeStub">
+            <summary>Initializes a new instance of type StubMvcApplication</summary>
+        </member>
+        <member name="P:ClientApplication.Fakes.StubMvcApplication.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ClientApplication.Fakes.StubMvcApplication.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:ClientApplication.Fakes.StubRouteConfig">
+            <summary>Stub type of ClientApplication.RouteConfig</summary>
+        </member>
+        <member name="M:ClientApplication.Fakes.StubRouteConfig.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:ClientApplication.Fakes.StubRouteConfig.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:ClientApplication.Fakes.StubRouteConfig.InitializeStub">
+            <summary>Initializes a new instance of type StubRouteConfig</summary>
+        </member>
+        <member name="P:ClientApplication.Fakes.StubRouteConfig.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ClientApplication.Fakes.StubRouteConfig.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:ClientApplication.Models.Fakes.ShimCurveInfo">
+            <summary>Shim type of ClientApplication.Models.CurveInfo</summary>
+        </member>
+        <member name="M:ClientApplication.Models.Fakes.ShimCurveInfo.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ClientApplication.Models.Fakes.ShimCurveInfo.#ctor(ClientApplication.Models.CurveInfo)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:ClientApplication.Models.Fakes.ShimCurveInfo.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ClientApplication.Models.Fakes.ShimCurveInfo.AllInstances.MaxIndexGet">
+            <summary>Sets the shim of CurveInfo.get_MaxIndex()</summary>
+        </member>
+        <member name="P:ClientApplication.Models.Fakes.ShimCurveInfo.AllInstances.MaxIndexSetInt64">
+            <summary>Sets the shim of CurveInfo.set_MaxIndex(Int64 value)</summary>
+        </member>
+        <member name="P:ClientApplication.Models.Fakes.ShimCurveInfo.AllInstances.MinIndexGet">
+            <summary>Sets the shim of CurveInfo.get_MinIndex()</summary>
+        </member>
+        <member name="P:ClientApplication.Models.Fakes.ShimCurveInfo.AllInstances.MinIndexSetInt64">
+            <summary>Sets the shim of CurveInfo.set_MinIndex(Int64 value)</summary>
+        </member>
+        <member name="P:ClientApplication.Models.Fakes.ShimCurveInfo.AllInstances.NameGet">
+            <summary>Sets the shim of CurveInfo.get_Name()</summary>
+        </member>
+        <member name="P:ClientApplication.Models.Fakes.ShimCurveInfo.AllInstances.NameSetString">
+            <summary>Sets the shim of CurveInfo.set_Name(String value)</summary>
+        </member>
+        <member name="M:ClientApplication.Models.Fakes.ShimCurveInfo.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ClientApplication.Models.Fakes.ShimCurveInfo.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClientApplication.Models.Fakes.ShimCurveInfo.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ClientApplication.Models.Fakes.ShimCurveInfo.Constructor">
+            <summary>Sets the shim of CurveInfo.CurveInfo()</summary>
+        </member>
+        <member name="P:ClientApplication.Models.Fakes.ShimCurveInfo.MaxIndexGet">
+            <summary>Sets the shim of CurveInfo.get_MaxIndex()</summary>
+        </member>
+        <member name="P:ClientApplication.Models.Fakes.ShimCurveInfo.MaxIndexSetInt64">
+            <summary>Sets the shim of CurveInfo.set_MaxIndex(Int64 value)</summary>
+        </member>
+        <member name="P:ClientApplication.Models.Fakes.ShimCurveInfo.MinIndexGet">
+            <summary>Sets the shim of CurveInfo.get_MinIndex()</summary>
+        </member>
+        <member name="P:ClientApplication.Models.Fakes.ShimCurveInfo.MinIndexSetInt64">
+            <summary>Sets the shim of CurveInfo.set_MinIndex(Int64 value)</summary>
+        </member>
+        <member name="P:ClientApplication.Models.Fakes.ShimCurveInfo.NameGet">
+            <summary>Sets the shim of CurveInfo.get_Name()</summary>
+        </member>
+        <member name="P:ClientApplication.Models.Fakes.ShimCurveInfo.NameSetString">
+            <summary>Sets the shim of CurveInfo.set_Name(String value)</summary>
+        </member>
+        <member name="T:ClientApplication.Models.Fakes.StubCurveInfo">
+            <summary>Stub type of ClientApplication.Models.CurveInfo</summary>
+        </member>
+        <member name="M:ClientApplication.Models.Fakes.StubCurveInfo.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:ClientApplication.Models.Fakes.StubCurveInfo.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:ClientApplication.Models.Fakes.StubCurveInfo.InitializeStub">
+            <summary>Initializes a new instance of type StubCurveInfo</summary>
+        </member>
+        <member name="P:ClientApplication.Models.Fakes.StubCurveInfo.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ClientApplication.Models.Fakes.StubCurveInfo.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

@@ -3,3 +3,363 @@ Log Entry : 12:32:36 PM Tuesday, May 22, 2018
   :
   :hai ex
 -------------------------------
+
+Log Entry : 1:45:03 PM Tuesday, May 22, 2018
+  :
+  :Data Subscription failed - Input string was not in a correct format.
+-------------------------------
+
+Log Entry : 2:17:27 PM Tuesday, May 22, 2018
+  :
+  :Data Subscription failed - Input string was not in a correct format.
+-------------------------------
+
+Log Entry : 2:18:02 PM Tuesday, May 22, 2018
+  :
+  :Failed to export data as xml
+-------------------------------
+
+Log Entry : 2:18:03 PM Tuesday, May 22, 2018
+  :
+  :Action method failed - One or more errors occurred.
+-------------------------------
+
+Log Entry : 2:18:47 PM Tuesday, May 22, 2018
+  :
+  :Data Subscription failed - Input string was not in a correct format.
+-------------------------------
+
+Log Entry : 2:20:57 PM Tuesday, May 22, 2018
+  :
+  :Failed to export data as xml
+-------------------------------
+
+Log Entry : 2:20:57 PM Tuesday, May 22, 2018
+  :
+  :Action method failed - One or more errors occurred.
+-------------------------------
+
+Log Entry : 2:21:16 PM Tuesday, May 22, 2018
+  :
+  :Data Subscription failed - Input string was not in a correct format.
+-------------------------------
+
+Log Entry : 2:24:04 PM Tuesday, May 22, 2018
+  :
+  :Action method failed - One or more errors occurred.
+-------------------------------
+
+Log Entry : 2:27:12 PM Tuesday, May 22, 2018
+  :
+  :Data Subscription failed - Input string was not in a correct format.
+-------------------------------
+
+Log Entry : 2:28:07 PM Tuesday, May 22, 2018
+  :
+  :Failed to export data as xml
+-------------------------------
+
+Log Entry : 2:28:07 PM Tuesday, May 22, 2018
+  :
+  :Action method failed - One or more errors occurred.
+-------------------------------
+
+Log Entry : 2:31:09 PM Tuesday, May 22, 2018
+  :
+  :Data Subscription failed - Input string was not in a correct format.
+-------------------------------
+
+Log Entry : 2:32:38 PM Tuesday, May 22, 2018
+  :
+  :Action method failed - One or more errors occurred.
+-------------------------------
+
+Log Entry : 3:31:38 PM Tuesday, May 22, 2018
+  :
+  :Data Subscription failed - Input string was not in a correct format.
+-------------------------------
+
+Log Entry : 7:52:29 AM Wednesday, May 23, 2018
+  :
+  :Failed to read curve headers
+-------------------------------
+
+Log Entry : 7:52:29 AM Wednesday, May 23, 2018
+  :
+  :Action method failed - One or more errors occurred.
+-------------------------------
+
+Log Entry : 7:55:00 AM Wednesday, May 23, 2018
+  :
+  :Failed to read curve headers
+-------------------------------
+
+Log Entry : 7:55:01 AM Wednesday, May 23, 2018
+  :
+  :Action method failed - One or more errors occurred.
+-------------------------------
+
+Log Entry : 7:57:00 AM Wednesday, May 23, 2018
+  :
+  :Action method failed - One or more errors occurred.
+-------------------------------
+
+Log Entry : 8:08:24 AM Wednesday, May 23, 2018
+  :
+  :Data Subscription failed - Input string was not in a correct format.
+-------------------------------
+
+Log Entry : 8:09:18 AM Wednesday, May 23, 2018
+  :
+  :Data Subscription failed - Input string was not in a correct format.
+-------------------------------
+
+Log Entry : 8:10:13 AM Wednesday, May 23, 2018
+  :
+  :Data Subscription failed - Input string was not in a correct format.
+-------------------------------
+
+Log Entry : 8:38:37 AM Wednesday, May 23, 2018
+  :
+  :Data Subscription failed - Input string was not in a correct format.
+-------------------------------
+
+Log Entry : 8:39:25 AM Wednesday, May 23, 2018
+  :
+  :Failed to export data as xml
+-------------------------------
+
+Log Entry : 8:39:26 AM Wednesday, May 23, 2018
+  :
+  :Action method failed - One or more errors occurred.
+-------------------------------
+
+Log Entry : 8:40:14 AM Wednesday, May 23, 2018
+  :
+  :Data Subscription failed - Input string was not in a correct format.
+-------------------------------
+
+Log Entry : 8:42:33 AM Wednesday, May 23, 2018
+  :
+  :Action method failed - One or more errors occurred.
+-------------------------------
+
+Log Entry : 8:49:03 AM Wednesday, May 23, 2018
+  :
+  :Data Subscription failed - Input string was not in a correct format.
+-------------------------------
+
+Log Entry : 8:49:57 AM Wednesday, May 23, 2018
+  :
+  :Failed to export data as xml
+-------------------------------
+
+Log Entry : 8:49:57 AM Wednesday, May 23, 2018
+  :
+  :Action method failed - One or more errors occurred.
+-------------------------------
+
+Log Entry : 8:50:16 AM Wednesday, May 23, 2018
+  :
+  :Data Subscription failed - Input string was not in a correct format.
+-------------------------------
+
+Log Entry : 8:50:49 AM Wednesday, May 23, 2018
+  :
+  :Data Subscription failed - Input string was not in a correct format.
+-------------------------------
+
+Log Entry : 8:53:02 AM Wednesday, May 23, 2018
+  :
+  :Action method failed - One or more errors occurred.
+-------------------------------
+
+Log Entry : 9:03:28 AM Wednesday, May 23, 2018
+  :
+  :Data Subscription failed - Input string was not in a correct format.
+-------------------------------
+
+Log Entry : 9:03:49 AM Wednesday, May 23, 2018
+  :
+  :Data Subscription failed - Input string was not in a correct format.
+-------------------------------
+
+Log Entry : 9:04:29 AM Wednesday, May 23, 2018
+  :
+  :Failed to export data as xml
+-------------------------------
+
+Log Entry : 9:04:29 AM Wednesday, May 23, 2018
+  :
+  :Action method failed - One or more errors occurred.
+-------------------------------
+
+Log Entry : 9:05:11 AM Wednesday, May 23, 2018
+  :
+  :Data Subscription failed - Input string was not in a correct format.
+-------------------------------
+
+Log Entry : 9:07:14 AM Wednesday, May 23, 2018
+  :
+  :Action method failed - One or more errors occurred.
+-------------------------------
+
+Log Entry : 9:12:25 AM Wednesday, May 23, 2018
+  :
+  :Failed to read curve headers
+-------------------------------
+
+Log Entry : 9:12:25 AM Wednesday, May 23, 2018
+  :
+  :Action method failed - One or more errors occurred.
+-------------------------------
+
+Log Entry : 9:12:59 AM Wednesday, May 23, 2018
+  :
+  :Failed to read curve headers
+-------------------------------
+
+Log Entry : 9:12:59 AM Wednesday, May 23, 2018
+  :
+  :Action method failed - One or more errors occurred.
+-------------------------------
+
+Log Entry : 9:13:14 AM Wednesday, May 23, 2018
+  :
+  :Failed to read curve headers
+-------------------------------
+
+Log Entry : 9:13:14 AM Wednesday, May 23, 2018
+  :
+  :Action method failed - One or more errors occurred.
+-------------------------------
+
+Log Entry : 9:14:16 AM Wednesday, May 23, 2018
+  :
+  :Failed to read curve headers
+-------------------------------
+
+Log Entry : 9:14:16 AM Wednesday, May 23, 2018
+  :
+  :Action method failed - One or more errors occurred.
+-------------------------------
+
+Log Entry : 9:16:42 AM Wednesday, May 23, 2018
+  :
+  :Action method failed - One or more errors occurred.
+-------------------------------
+
+Log Entry : 9:18:30 AM Wednesday, May 23, 2018
+  :
+  :Failed to invoke data transfer
+-------------------------------
+
+Log Entry : 9:18:31 AM Wednesday, May 23, 2018
+  :
+  :Action method failed - One or more errors occurred.
+-------------------------------
+
+Log Entry : 9:18:45 AM Wednesday, May 23, 2018
+  :
+  :Failed to invoke data transfer
+-------------------------------
+
+Log Entry : 9:18:45 AM Wednesday, May 23, 2018
+  :
+  :Action method failed - One or more errors occurred.
+-------------------------------
+
+Log Entry : 9:22:06 AM Wednesday, May 23, 2018
+  :
+  :Action method failed - One or more errors occurred.
+-------------------------------
+
+Log Entry : 5:55:50 PM Wednesday, May 23, 2018
+  :
+  :Exception occured with RabbitMQ channel - Object reference not set to an instance of an object.
+-------------------------------
+
+Log Entry : 5:55:50 PM Wednesday, May 23, 2018
+  :
+  :Action method failed - Exception occured with RabbitMQ channel - Object reference not set to an instance of an object.
+-------------------------------
+
+Log Entry : 5:56:41 PM Wednesday, May 23, 2018
+  :
+  :Exception occured with RabbitMQ channel - Object reference not set to an instance of an object.
+-------------------------------
+
+Log Entry : 5:56:41 PM Wednesday, May 23, 2018
+  :
+  :Action method failed - Exception occured with RabbitMQ channel - Object reference not set to an instance of an object.
+-------------------------------
+
+Log Entry : 5:56:58 PM Wednesday, May 23, 2018
+  :
+  :Exception occured with RabbitMQ channel - Object reference not set to an instance of an object.
+-------------------------------
+
+Log Entry : 5:56:58 PM Wednesday, May 23, 2018
+  :
+  :Action method failed - Exception occured with RabbitMQ channel - Object reference not set to an instance of an object.
+-------------------------------
+
+Log Entry : 5:58:07 PM Wednesday, May 23, 2018
+  :
+  :Exception occured with RabbitMQ channel - Object reference not set to an instance of an object.
+-------------------------------
+
+Log Entry : 5:58:07 PM Wednesday, May 23, 2018
+  :
+  :Action method failed - Exception occured with RabbitMQ channel - Object reference not set to an instance of an object.
+-------------------------------
+
+Log Entry : 6:07:31 PM Wednesday, May 23, 2018
+  :
+  :Exception occured with RabbitMQ channel - Object reference not set to an instance of an object.
+-------------------------------
+
+Log Entry : 6:07:31 PM Wednesday, May 23, 2018
+  :
+  :Action method failed - Exception occured with RabbitMQ channel - Object reference not set to an instance of an object.
+-------------------------------
+
+Log Entry : 6:08:20 PM Wednesday, May 23, 2018
+  :
+  :Exception occured with RabbitMQ channel - Object reference not set to an instance of an object.
+-------------------------------
+
+Log Entry : 6:08:20 PM Wednesday, May 23, 2018
+  :
+  :Action method failed - Exception occured with RabbitMQ channel - Object reference not set to an instance of an object.
+-------------------------------
+
+Log Entry : 6:09:59 PM Wednesday, May 23, 2018
+  :
+  :Exception occured with RabbitMQ channel - Object reference not set to an instance of an object.
+-------------------------------
+
+Log Entry : 6:09:59 PM Wednesday, May 23, 2018
+  :
+  :Action method failed - Exception occured with RabbitMQ channel - Object reference not set to an instance of an object.
+-------------------------------
+
+Log Entry : 6:11:45 PM Wednesday, May 23, 2018
+  :
+  :Exception occured with RabbitMQ channel - Object reference not set to an instance of an object.
+-------------------------------
+
+Log Entry : 6:11:45 PM Wednesday, May 23, 2018
+  :
+  :Action method failed - Exception occured with RabbitMQ channel - Object reference not set to an instance of an object.
+-------------------------------
+
+Log Entry : 7:47:59 AM Thursday, May 24, 2018
+  :
+  :Action method failed - One or more errors occurred.
+-------------------------------
+
+Log Entry : 12:19:20 PM Thursday, May 24, 2018
+  :
+  :Action method failed - One or more errors occurred.
+-------------------------------
